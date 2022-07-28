@@ -8,3 +8,5 @@
 
 const heightValue = document.getElementById('heightValue');
 const getHeight = value => heightValue.innerText = value;
+
+getHeight(document.getElementById('height').value);

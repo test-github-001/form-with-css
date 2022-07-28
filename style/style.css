@@ -1,0 +1,79 @@
+@font-face { font-family: "Roboto-Black"; src: url("Roboto-Black.ttf"); }
+@font-face { font-family: "Roboto-Regular"; src: url("Roboto-Regular.ttf"); }
+@font-face { font-family: "Roboto-Thin"; src: url("Roboto-Thin.ttf"); }
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url("../src/images/bg.jpg");
+    background-position: center;
+    background-size: 50%;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin: 40px 0 20px;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    background-color: #2b0e69;
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+    font-size: 18px;
+    background-image: url("../src/images/bg-2.jpg");
+    background-position: center;
+    background-size: 50%;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+}
+
+label.inline {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+input {
+    outline: none;
+    border: solid 2px #757575;
+    border-radius: 8px;
+    height: 22px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 2px #44ff00;
+}
+
+input[type="text"]     { width: 256px; }
+input[type="number"]   { width: 306px; }
+input[type="tel"]      { width: 220px; }
+input[type="email"]    { width: 292px; }
+input[type="date"]     { width: 238px; }
+input[type="range"]    { width: 220px; }
+input[type="time"]     { width: 228px; }
+input[type="password"] { width: 256px; }
+
+a {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #44ff00;
+}
